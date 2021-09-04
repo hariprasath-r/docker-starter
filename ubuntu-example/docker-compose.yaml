@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  firstcustomcompose:
+    container_name: firstcustomcontainer
+    build:
+      context: .
+      dockerfile: Dockerfile
